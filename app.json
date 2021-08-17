@@ -9,9 +9,9 @@
     "scheme": "shopstream",
     "icon": "assets/image/app-icon.png",
     "splash": {
-      "image": "assets/image/app-icon.png",
+      "image": "assets/image/ShopStream2.png",
       "resizeMode": "contain",
-      "backgroundColor": "#222222"
+      "backgroundColor": "#101d24"
     }
   }
 }
