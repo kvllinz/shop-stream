@@ -1,19 +1,15 @@
+import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, useColorScheme } from 'react-native';
+import AuthNavigation from './src/navigations/AuthNav';
+import Tabs from './src/navigations/bottomNav';
+import DashboardNavigation from './src/navigations/DashboardNavigation';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <NavigationContainer>
+      <AuthNavigation />
+    </NavigationContainer>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#800080',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
